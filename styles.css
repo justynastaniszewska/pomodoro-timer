@@ -1,0 +1,59 @@
+* {
+    font-family: 'Oswald', sans-serif; 
+    background-color: #6308e6;
+    color: #fff;
+}
+
+h1 {
+    text-transform: lowercase;
+}
+
+#container {
+    text-align: center;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 500px;
+    height: 300px;
+}
+
+#time {
+    display: inline-block;
+    font-size: 150px;
+}
+
+#pomodoriInfo button {
+    border: none;
+    vertical-align: middle;
+    font-size: 40px;
+}
+
+#pomodoriInfo #time {
+    vertical-align: middle;
+}
+
+#pomodoriControl button {
+    font-size: 16px;
+    margin-left: 30px; 
+}
+
+#pomodoriControl {
+    margin-top: 40px;
+}
+
+footer {
+    font-size: 12px;
+    color: #ff914d;
+    position: absolute;
+    width: 250px;
+    text-align: center;
+    margin: auto;
+    right: 0;
+    bottom: 15px;
+    left: 0;
+    text-transform: lowercase;
+}
+  
