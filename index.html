@@ -6,24 +6,39 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Pomodoro timer</title>
   <link rel="stylesheet" href="styles.css">
-  <script src="pomodoro.js"></script>
 </head>
 <body>
   <div id="container">
     <h1>POMODORO TIMER</h1>
-    <div id="pomodoriInfo">
-      <button id="decrement" class="timeControl">&#x25BD;</button>
-      <div id="time">25:00</div>
-      <button id="increment" class="timeControl">&#x25B3;</button>
-    </div>
+    
+      <p id="work" class="label">Work</p>
+      <p id="cycles" class="label">Cycles</p>
+      <p id="break" class="label">Break</p>
+   
+        <div id="work-timer" class="timer">
+            <p id="w_minutes" class="work-time">25</p>
+            <p id="semicolon" class="work-time">:</p>
+            <p id="w_seconds" class="work-time">00</p>
+        </div>
+
+        <p id="counter" class="timer">0</p>
+
+        <div id="break-timer" class="timer">
+            <p id="b_minutes" class="break-time">05</p>
+            <p id="semicolon" class="break-time">:</p>
+            <p id="b_seconds" class="break-time">00</p>
+        </div>
+
     <div id="pomodoriControl">
-      <button id="start">start</button>
-      <button id="stop">stop</button>
-      <button id="reset">reset</button>
+      <button id="start" class="btn">start</button>
+      <button id="stop" class="btn">stop</button>
+      <button id="reset" class="btn">reset</button>
     </div>
   </div>
+
     <div class="credits">
         <footer>Built by <a href="https://github.com/justynastaniszewska">https://github.com/justynastaniszewska</a></footer>
     </div>
+    <script src="pomodoro.js"></script>
 </body>
 </html>

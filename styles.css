@@ -1,59 +1,78 @@
 * {
-    font-family: 'Oswald', sans-serif; 
-    background-color: #6308e6;
-    color: #fff;
+  font-family: 'Oswald', sans-serif; 
+  background-color: #6308e6;
+  color: #fff;
 }
 
 h1 {
-    text-transform: lowercase;
+  text-transform: lowercase;
 }
 
 #container {
-    text-align: center;
-    position: absolute;
-    margin: auto;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    width: 500px;
-    height: 300px;
+  text-align: center;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 700px;
+  height: 500px;
 }
 
-#time {
-    display: inline-block;
-    font-size: 150px;
+.label {
+  display: inline-block;
+  margin: 60px;
+  text-align: center;
 }
 
-#pomodoriInfo button {
-    border: none;
-    vertical-align: middle;
-    font-size: 40px;
+.work-time {
+  display: inline-block;
+  margin: 0;
+  font-size: 70px;
+  font-weight: bold;
+  color: orange;
 }
 
-#pomodoriInfo #time {
-    vertical-align: middle;
+.timer {   
+  display: inline-block;
+  margin: 20px;
+  font-size: 70px;
+  font-weight: bold;
+  color: orange;
+}
+
+.break-time {
+  display: inline-block;
+  margin: 0;
+  font-size: 70px;
+  font-weight: bold;
+  color: orange;
 }
 
 #pomodoriControl button {
-    font-size: 16px;
-    margin-left: 30px; 
+  font-size: 16px;
+}
+
+#stop {
+  margin-left: 40px;
+  margin-right: 40px;
 }
 
 #pomodoriControl {
-    margin-top: 40px;
+  margin-top: 30px;
 }
 
 footer {
-    font-size: 12px;
-    color: #ff914d;
-    position: absolute;
-    width: 250px;
-    text-align: center;
-    margin: auto;
-    right: 0;
-    bottom: 15px;
-    left: 0;
-    text-transform: lowercase;
+  font-size: 12px;
+  color: #ff914d;
+  position: absolute;
+  width: 250px;
+  text-align: center;
+  margin: auto;
+  right: 0;
+  bottom: 15px;
+  left: 0;
+  text-transform: lowercase;
 }
   
